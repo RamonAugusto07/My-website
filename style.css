@@ -1,0 +1,167 @@
+:root{
+	--black-background: #000000;
+	--white-font: #FFFFFF;
+	--main-font: 'Inter';
+}
+
+html{
+	padding-bottom: 3em;	
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: var(--black-background);
+	color: var(--white-font);
+	font-family: var(--main-font);
+}
+
+.mainContainer{
+	height: 80vh;
+	background-color: black;
+	padding-bottom: 100px;
+}
+
+.greetingContainer{
+	padding-top: 15vh;
+	text-align: center;
+}
+
+.container{
+	align-items: center;
+	margin: 0 10em;
+}
+
+.name{
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+.warning{
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+
+.profilePicture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50vh;
+	border-radius: 50%;
+	transition: 0.5s all;
+}
+
+.profilePicture:hover{
+	height: 55vh;
+	transform: scale(1.1);
+}
+
+.introductionContainer{
+	height: 70vh;
+}
+
+.introduction{
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.introductionP{
+	text-align: center;
+}
+
+.containerInformation{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.titleEXP{
+	text-align: center;
+	padding-bottom: 5em;
+}
+
+.XP{
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.xp{
+	font-size: small;
+}
+
+.listItems{
+	text-align: center;
+	padding-bottom: 5em;
+	padding-left: 3em;
+	padding-right: 3em;
+	list-style: none;
+}
+
+.XPp{
+	text-align: center;
+	
+}
+
+.gallery{
+	padding-top: 2em;
+	padding-bottom: 0em;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(6, 5vw);
+	grid-gap: 15px;
+	text-align: center;
+
+}
+
+.gallery__img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery__item--1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--2{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.gallery__item--3{
+	width: 400px;
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+.gallery__item--6{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.thanks{
+	padding-left: 10em;
+	text-align: left;
+}
+
+.icon{
+	height: 3.5em;
+	width: 3.5em;
+}
+
+.link{
+	text-decoration: none;
+}
